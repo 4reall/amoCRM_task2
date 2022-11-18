@@ -1,5 +1,5 @@
-import styles from "./Nav.module.css";
 import cn from "classnames";
+import styles from "./Nav.module.css";
 
 export interface ILink {
   label: string;
@@ -15,7 +15,7 @@ const Nav = ({ links, className }: NavProps) => {
   return (
     <nav className={cn(styles.nav, className)}>
       {links.map(({ label, href }) => (
-        <a className={styles.navLink} href={href}>
+        <a className={styles.navLink} key={label + href} href={href}>
           {label}
         </a>
       ))}

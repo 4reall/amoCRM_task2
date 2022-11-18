@@ -1,0 +1,158 @@
+.container {
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 88px;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+.col:last-of-type {
+  margin-right: 0;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.col3 {
+  grid-column: span 3;
+}
+
+.col6 {
+  grid-column: span 6;
+}
+
+.flexEnd {
+  justify-self: flex-end;
+  text-align: right;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--base-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--disabled-color);
+}
+
+.link {
+  margin-top: 10px;
+}
+.link:first-of-type {
+  margin-top: 0;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  right: 2px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.textSmall {
+  font-family: "Montserrat", sans-serif;
+  color: var(--base-color);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.underline {
+  display: block;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.justifyEnd {
+  text-align: right;
+  justify-self: end;
+  justify-content: flex-end;
+}
+
+.socials {
+  margin-top: 21px;
+  margin-bottom: 13px;
+  display: flex;
+}
+.socials > * {
+  margin-right: 10px;
+}
+.socials > *:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 75em) {
+  .rights {
+    right: 18px;
+  }
+}
+
+@media (max-width: 48em) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .col6 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 35em) {
+  .text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .col6 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .tel {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .socials {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .socialIcon {
+    width: 25px;
+    height: 25px;
+  }
+  .rights {
+    left: 16px;
+    bottom: 4px;
+    text-align: left;
+  }
+}

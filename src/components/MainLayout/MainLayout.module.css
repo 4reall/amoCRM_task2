@@ -30,21 +30,21 @@
 
 .redBall {
   position: absolute;
-  left: 31%;
+  left: 35%;
   top: 63px;
   z-index: -1;
 }
 
 .redBallSmall {
   position: absolute;
-  left: 60%;
+  left: 58%;
   top: 523px;
   z-index: -1;
 }
 
 .purpleBall {
   position: absolute;
-  left: 62%;
+  left: 59%;
   top: -20px;
   z-index: -1;
 }

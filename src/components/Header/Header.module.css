@@ -3,6 +3,7 @@
 }
 
 .grid {
+  margin: 0 auto;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(12, 1fr);
