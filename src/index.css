@@ -1,0 +1,42 @@
+:root {
+  --base-color: #e4e5ea;
+  --disabled-color: #656566;
+  --accent-color: #4077f3;
+  --accent-hover: #326bfa;
+  --accent-active: #3764de;
+  --main-bg: #0e1014;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--main-bg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}

@@ -1,0 +1,159 @@
+.container {
+  margin: 125px auto;
+  color: #e4e5ea;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftContent {
+  max-width: 360px;
+}
+
+.leftContentTitle {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.leftContentText {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.leftGradientText {
+  font-weight: 900;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightContent {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 13px;
+  max-width: 360px;
+  width: 100%;
+}
+
+.rightContentTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+}
+
+.rightGradient1 {
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+}
+
+.rightGradient2 {
+  background: linear-gradient(90deg, #fcb045 50%, #f35a27 100%);
+}
+
+.rightGradientText {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  text-align: right;
+}
+
+.cardTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.cardDescription {
+  margin-top: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.button {
+  margin-top: 60px;
+  width: fit-content;
+}
+
+.label {
+  position: relative;
+  padding-left: 14px;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #e4e5ea;
+  font-family: "Montserrat", sans-serif;
+}
+.label:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;
+  height: 1px;
+  transform: translateY(-50%);
+  background: #000;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+}
+
+@media (max-width: 48em) {
+  .container {
+    margin-top: 39px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftContentText {
+    margin-top: 14px;
+  }
+  .rightContent {
+    margin-top: 48px;
+    align-items: start;
+  }
+  .grid {
+    row-gap: 15px;
+    column-gap: 0;
+  }
+  .leftContentTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .rightContentTitle {
+    text-align: left;
+  }
+  .button {
+    display: none;
+  }
+}
+
+@media (max-width: 35em) {
+  .rightGradientText {
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .grid {
+    margin-top: 20px;
+  }
+}
