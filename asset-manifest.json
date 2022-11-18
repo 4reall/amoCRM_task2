@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/amoCRM_task2/static/css/main.6e292cbb.css",
+    "main.js": "/amoCRM_task2/static/js/main.683a6b29.js",
+    "static/media/mobile-bg.png": "/amoCRM_task2/static/media/mobile-bg.836c013eae643f74ec66.png",
+    "static/media/redBall.png": "/amoCRM_task2/static/media/redBall.f7bc3913ce7a7cd29600.png",
+    "static/media/purpleBall.png": "/amoCRM_task2/static/media/purpleBall.2cb82a90cccd09f2cb73.png",
+    "static/media/logo_welbex.svg": "/amoCRM_task2/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/amoCRM_task2/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/amoCRM_task2/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/amoCRM_task2/index.html",
+    "static/media/telegram.svg": "/amoCRM_task2/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.6e292cbb.css.map": "/amoCRM_task2/static/css/main.6e292cbb.css.map",
+    "main.683a6b29.js.map": "/amoCRM_task2/static/js/main.683a6b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e292cbb.css",
+    "static/js/main.683a6b29.js"
+  ]
+}
