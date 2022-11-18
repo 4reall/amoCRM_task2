@@ -1,0 +1,19 @@
+.button {
+  padding: 21px 35px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--base-color);
+  background: var(--accent-color);
+  transition: 200ms;
+}
+
+.button:hover {
+  background: #326bfa;
+}
+.button:active {
+  background: #3764de;
+}
